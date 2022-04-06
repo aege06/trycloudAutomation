@@ -34,4 +34,7 @@ public class ConfigurationReader {
         return properties.getProperty(keyword);
     }
 
+    public static long getNumber(String timeout) {
+        return 0;
+    }
 }
